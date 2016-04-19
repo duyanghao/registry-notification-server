@@ -1,0 +1,48 @@
+# Configure your server that accepts the events
+server:
+  address: "0.0.0.0"
+  port: 80
+  #ssl:
+  #  cert: certs/domain.crt
+  #  cert_key: certs/domain.key
+
+search_user:
+  # Essentially all options are described here: https://godoc.org/gopkg.in/mgo.v2#DialInfo     
+  dial_info:
+    addrs: [""]
+    timeout: "10s"
+    database: ""
+    username: ""
+    password: ""
+  collection: ""
+
+search_repo:
+  # Essentially all options are described here: https://godoc.org/gopkg.in/mgo.v2#DialInfo
+  dial_info:
+    addrs: [""]
+    timeout: "10s"
+    database: ""
+    username: ""
+    password: ""
+  collection: ""
+
+analysis_config:
+  # Essentially all options are described here: https://godoc.org/gopkg.in/mgo.v2#DialInfo
+  dial_info:
+    addrs: [""]
+    timeout: "10s"
+    database: ""
+    username: ""
+    password: ""
+  collection: ""
+
+mongo_auth:
+  # Essentially all options are described here: https://godoc.org/gopkg.in/mgo.v2#DialInfo
+  dial_info:
+    addrs: [""]
+    timeout: "10s"
+    database: ""
+    username: ""
+    password: ""
+  collection: ""
+
