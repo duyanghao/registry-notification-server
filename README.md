@@ -13,7 +13,9 @@ registry-notification-server
 > [...]
 > Notifications are sent to endpoints via HTTP requests.
 
-`registry-notification-server` is an implemented choice of notification endpoints, which provides some simple functions around events, such as search, migration and analysis.
+![](images/notifications.png)
+
+`registry-notification-server` implements [the above event notification protocol](https://docs.docker.com/registry/notifications/) and provides some simple functions.
 
 ## Prerequisites
 
